@@ -58,7 +58,7 @@ const IoTSimulator = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <DndProvider backend={HTML5Backend}>
-        <div style={{ display: "flex", height: "200vh" }}>
+        <div style={{ display: "flex", height: "500vh" }}>
           <div style={{ width: "20%", padding: "10px", backgroundColor: "#f4f4f4" }}>
             <h2>Sheshgyan Simulator</h2>
             {componentsList.map((comp) => (
