@@ -1,10 +1,10 @@
 import React from 'react';
 import PinConnection from './PinConnection';
 
-const Bridge = ({ componentId, pins, onStartWire, onEndWire }) => {
+const Oled = ({ componentId, pins, onStartWire, onEndWire }) => {
   return (
     <div style={{ padding: '10px', border: '1px solid #ccc', borderRadius: '5px', backgroundColor: '#f9f9f9' }}>
-      <h3>Bridge</h3>
+      <h3>Oled</h3>
       <PinConnection
         componentId={componentId}
         pins={pins}
@@ -15,4 +15,4 @@ const Bridge = ({ componentId, pins, onStartWire, onEndWire }) => {
   );
 };
 
-export default Bridge;
+export default oled;
